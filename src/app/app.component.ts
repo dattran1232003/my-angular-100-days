@@ -6,10 +6,13 @@ import { Component } from '@angular/core'
     styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-    user = {
-        name: 'Dat',
-        age: 18,
-    }
+    users = [
+        {
+            id: 0,
+            name: 'Dat',
+            age: 18,
+        },
+    ]
 
     handler(): void {
         console.log('clicked')
